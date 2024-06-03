@@ -90,11 +90,14 @@ General Styles
 .contact-info__block {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .contact-info__block--center {
   justify-content: center;
+}
+
+.contact-info__block, .contact-info__block--center {
+    padding-inline: 10px;
 }
 
 .contact-info__item {
